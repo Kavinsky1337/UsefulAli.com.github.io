@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Russo+One');
+body {
+	background: url(../img/school.png);
+	font-family: "Anton";
+	font-weight: 300;
+	font-size: 16px;
+	color: #555;
+
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Oswald";
+	font-weight: 300;
+	color: #333; 
+}
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+	font-family: "Russo"
+}
+.centered {
+	text-align: center;
+
+}
+
+a {
+	color: #f85c37;
+}
+a:hover, a:focus {
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background-color: #2d2d2d;
+	border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #ff7878;
+}
+.navbar-inverse .navbar-brand {
+	color: #999;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+
+#headerwrap{
+	background: url(../img/we.jpg); 
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	background-size: 100%;
+	width: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+}
+#headerwrap h1 {
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+    letter-spacing: 3px;
+}
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+.w {
+	    padding-top: 35px;
+}
+.w h4 {
+	font-size: 25px;
+}
+* {box-sizing: border-box;}
+.product-wrap {
+  width: 250px;
+  height: 350px;
+  margin: 0 7px 7px;
+  background: white;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 14px; 
+  font-family: Lora;
+  text-transform: uppercase;
+  float: left;
+
+}
+.product-item {
+  position: relative;
+  overflow: hidden;
+}
+.product-wrap img {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+.product-buttons {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .8);
+  opacity: 0;
+  transition: .3s ease-in-out;
+}
+.button { 
+  text-decoration: none;
+  color: #c0a97a;
+  font-size: 12px;
+  width: 140px;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  border: 2px solid #c0a97a;
+  transform: translate(-50%, -50%) scale(0);
+  transition: .3s ease-in-out;
+}
+.button:before {
+  content: "\f07a";
+  font-family: FontAwesome;
+  margin-right: 10px;
+}
+.product-item:hover .product-buttons {opacity: 1;}
+.product-item:hover .button {transform: translate(-50%, -50%) scale(1);}
+.button:hover {background: black;}
+.product-title {color: #5e5e5e;}
+.product-title a {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-weight: 600;
+  margin: 15px 0 5px;
+  padding-bottom: 7px;
+  display: block;
+  position: relative;
+  transition: .3s ease-in-out;
+}
+.product-title a:after{    
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background: #2e2e2e;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 0;
+  transition: .3s ease-in-out;
+}
+.product-title a:hover {color: #c0a97a;}
+.product-title:hover a:after {background: #c0a97a;}
+.product-price {
+  font-size: 20px;
+  color: #c0a97a;
+  font-weight: 700;
+}
+.product-wrap {
+	font-family: "Oswald";
+}
+
+
+}
+#block{
+	
+	
+
+}
+
+
+#r {
+	background: ;
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+#r h4{
+	font-family: "Oswald";
+	font-size: 45px;
+}
+.row p {
+	font-family: "Russo"
+}
